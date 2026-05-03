@@ -34,7 +34,7 @@ const Contact = () => {
       <div className="container contact-container">
         <div className="contact-header">
           <h1>Get in Touch</h1>
-          <p>Have questions about JobPortal? We're here to help. Send us a message and our team will respond within 24 hours.</p>
+          <p>Have questions about Aayush Overseas? We're here to help. Send us a message and our team will respond within 24 hours.</p>
         </div>
         
         <div className="contact-content-card">

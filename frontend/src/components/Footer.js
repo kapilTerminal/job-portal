@@ -1,7 +1,7 @@
 import React from 'react';
-import { Briefcase } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -9,8 +9,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
-            <Briefcase className="logo-icon" size={20} />
-            <span>JobPortal</span>
+            <img src={logo} alt="Aayush Overseas Logo" className="logo-image" />
           </Link>
           <p className="footer-tagline">
             Connecting talented professionals with world-class opportunities.
@@ -50,7 +49,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} JobPortal. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Aayush Overseas Pvt. Ltd. All rights reserved.</p>
         </div>
       </div>
     </footer>
